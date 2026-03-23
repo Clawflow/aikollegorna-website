@@ -70,12 +70,12 @@ export function PricingCard({
       </ul>
 
       <motion.button
-        whileHover={{ scale: 1.03 }}
+        whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.97 }}
         className={`w-full py-4 rounded-xl font-medium transition-colors ${
           highlighted
-            ? "bg-white text-gray-900 hover:bg-gray-100"
-            : "bg-gray-900 text-white hover:bg-gray-800"
+            ? "bg-white text-gray-900 transition-transform duration-200"
+            : "bg-gray-900 text-white transition-transform duration-200"
         }`}
       >
         Kom igång

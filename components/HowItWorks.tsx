@@ -129,9 +129,9 @@ export function HowItWorks() {
           className="text-center"
         >
           <motion.button
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-shadow"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white rounded-xl font-medium shadow-lg transition-transform duration-200 transition-shadow"
           >
             Läs mer om processen
             <ArrowRight className="w-5 h-5" />

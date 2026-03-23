@@ -185,9 +185,9 @@ export function Industries() {
           className="mt-16 text-center"
         >
           <motion.button
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-black hover:bg-gray-900 text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-all"
+            className="px-8 py-4 bg-black transition-transform duration-200 text-white rounded-xl font-medium shadow-lg transition-transform duration-200 transition-all"
           >
             Boka en demo
           </motion.button>

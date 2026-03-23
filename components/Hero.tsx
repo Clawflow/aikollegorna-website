@@ -82,12 +82,9 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.7 }}
             >
               <motion.button
-                className="px-8 py-4 bg-white text-gray-900 rounded-full font-semibold shadow-lg"
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.3)",
-                }}
-                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-white text-gray-900 rounded-full font-semibold shadow-lg transition-transform duration-200"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
               >
                 Kom igång
               </motion.button>

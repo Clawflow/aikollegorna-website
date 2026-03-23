@@ -58,9 +58,9 @@ export function ReadyToHire() {
             Boka en kostnadsfri konsultation. 45 minuter, inga förbindelser.
           </p>
           <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-gray-900 text-white px-8 py-4 rounded-xl font-medium shadow-lg hover:bg-gray-800 transition-colors"
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            className="bg-gray-900 text-white px-8 py-4 rounded-xl font-medium shadow-lg transition-transform duration-200"
           >
             Kom igång
           </motion.button>

@@ -49,16 +49,16 @@ export function Features() {
 
             <div className="flex flex-wrap gap-4">
               <motion.button
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-gray-900 text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-shadow"
+                className="px-8 py-4 bg-gray-900 text-white rounded-xl font-medium shadow-lg transition-transform duration-200 transition-shadow"
               >
                 Boka demo
               </motion.button>
               <motion.button
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white text-gray-900 rounded-xl font-medium border-2 border-gray-200 hover:border-gray-300 transition-colors"
+                className="px-8 py-4 bg-white text-gray-900 rounded-xl font-medium border-2 border-gray-200 transition-transform duration-200 transition-colors"
               >
                 Läs mer
               </motion.button>

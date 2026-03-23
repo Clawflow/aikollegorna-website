@@ -115,7 +115,7 @@ export function CaseStudies() {
             </p>
           </div>
           <motion.button
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
             className="bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-full font-medium transition-colors whitespace-nowrap"
           >
