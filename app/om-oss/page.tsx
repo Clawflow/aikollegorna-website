@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { AboutSection } from "@/components/AboutSection";
 import { TeamSection } from "@/components/TeamSection";
 import { ValuesSection } from "@/components/ValuesSection";
-import { CTA } from "@/components/CTA";
+import { ReadyToHire } from "@/components/ReadyToHire";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function OmOssPage() {
       <AboutSection />
       <ValuesSection />
       <TeamSection />
-      <CTA />
+      <ReadyToHire />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { PricingCard } from "@/components/PricingCard";
 import { PricingFaq } from "@/components/PricingFaq";
-import { CTA } from "@/components/CTA";
+import { ReadyToHire } from "@/components/ReadyToHire";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -84,7 +84,7 @@ export default function PriserPage() {
       </div>
 
       <PricingFaq />
-      <CTA />
+      <ReadyToHire />
       <Footer />
     </div>
   );

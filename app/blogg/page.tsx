@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { BlogPostCard } from "@/components/BlogPostCard";
-import { CTA } from "@/components/CTA";
+import { ReadyToHire } from "@/components/ReadyToHire";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -89,7 +89,7 @@ export default function BloggPage() {
         </div>
       </div>
 
-      <CTA />
+      <ReadyToHire />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { DigitalWorkers } from "@/components/DigitalWorkers";
 import { MeetWorkers } from "@/components/MeetWorkers";
-import { CTA } from "@/components/CTA";
+import { ReadyToHire } from "@/components/ReadyToHire";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function MedarbetarePage() {
       />
       <MeetWorkers />
       <DigitalWorkers />
-      <CTA />
+      <ReadyToHire />
       <Footer />
     </div>
   );

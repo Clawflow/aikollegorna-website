@@ -10,8 +10,7 @@ const workers = [
     subtitle: "Content Manager",
     description:
       "Alice förvandlar dina idéer till engagerande innehåll. Hon skapar, redigerar och optimerar innehåll över alla plattformar samtidigt som hon bibehåller ditt varumärkes röst.",
-    image:
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: "/images/workers/alice.jpg",
     cta: "Anställ Alice",
   },
   {
@@ -19,8 +18,7 @@ const workers = [
     subtitle: "Social Media Manager",
     description:
       "Emma lär sig från varje inlägg, anpassar sig till din publik och höjer din sociala närvaro dygnet runt med datadrivna insikter.",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: "/images/workers/emma.jpg",
     cta: "Anställ Emma",
   },
   {
@@ -28,8 +26,7 @@ const workers = [
     subtitle: "B2B Sales Person",
     description:
       "Axel engagerar prospects över kanaler, driver kvalificerade möten och bygger pipeline medan du fokuserar på att stänga affärer.",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: "/images/workers/axel.jpg",
     cta: "Anställ Axel",
   },
 ];

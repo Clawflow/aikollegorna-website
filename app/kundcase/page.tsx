@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { CaseStudies } from "@/components/CaseStudies";
 import { Industries } from "@/components/Industries";
-import { CTA } from "@/components/CTA";
+import { ReadyToHire } from "@/components/ReadyToHire";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function KundcasePage() {
       />
       <CaseStudies />
       <Industries />
-      <CTA />
+      <ReadyToHire />
       <Footer />
     </div>
   );
